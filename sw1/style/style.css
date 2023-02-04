@@ -1,0 +1,131 @@
+html{
+    background-color: bisque;
+}
+
+.imagen1{
+
+    border-radius: 5px;
+}
+
+
+img{
+    width: 290px;
+    height: 450px;
+    
+}
+
+.muro{
+    display: flex;
+}
+
+.contenedor2{
+    background-color: aliceblue;
+    width: 280px;
+    
+}
+
+.principal{
+    font-family: 'Fraunces', serif;
+    font-weight: 1000px;
+}
+
+p{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+h1{
+    width: 190px;
+    padding-left: 30px;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.contenedor1, .contenedor2{
+
+    margin-top: 80px;
+    height: 450px;
+}
+
+.muro{
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo2{
+    font-size: 0.8 rem;
+    letter-spacing: 3px;
+    color: rgb(161, 161, 161);
+}
+
+h3{
+    margin-right: 60px;
+    text-decoration: line-through;
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+
+.parrafo{
+    width: 220px;
+    margin: 0;
+    
+    color: rgb(161, 161, 161);
+    
+}
+
+.price{
+    color: rgb(0, 101, 2);
+   margin-top: 30px;
+   font-size: 40px;
+}
+
+.contenedor3{
+    display: flex;
+}
+
+button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+   font-weight: bold;
+   width: 90%;
+   background-color: rgb(0, 115, 0);
+   padding: 1em;
+   height: clamp(0.5em,2vh,2em);
+   border-radius: 5px;
+   border: none;
+   font-size: clamp(20px,2vw,1rem);
+   margin-top: 40px;
+   margin-left: 15px;
+}
+
+.icono{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/*height: 50px;
+    width: 200px;
+    margin-left: 30px;
+ background-color: rgb(2, 108, 0);
+    margin-top: 20px;
+*/
+
+.icono:hover{
+    color: black;
+}
